@@ -18,9 +18,9 @@ public class MyGithubTest { // Đổi tên class
     }
 
     public static void greet(String name) {
-        System.out.println("Xin chào, " );
+      
         
     } 
     public void thongbao (){
-        System.out.println("chao ban");
+        System.out.println("");
 } }
