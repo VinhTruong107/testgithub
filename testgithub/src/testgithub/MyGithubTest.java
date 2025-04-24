@@ -12,7 +12,8 @@ public class MyGithubTest { // Đổi tên class
 
     public static void main(String[] args) {
         System.out.println("Hello GitHub - Updated!");
-        greet("Người dùng GitHub");
+        greet("Người dùng khác");
+        
     }
 
     public static void greet(String name) {
