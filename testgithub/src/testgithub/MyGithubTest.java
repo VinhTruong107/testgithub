@@ -8,14 +8,15 @@ package testgithub;
  *
  * @author ASUS
  */
-public class Testgithub {
+public class MyGithubTest { // Đổi tên class
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-             System.out.println("Hello GitHub!");
+        System.out.println("Hello GitHub - Updated!");
+        greet("Người dùng GitHub");
     }
-    
+
+    public static void greet(String name) {
+        System.out.println("Xin chào, " + name + "!");
+        
+    }
 }
