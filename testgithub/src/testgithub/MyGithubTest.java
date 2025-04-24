@@ -12,12 +12,15 @@ public class MyGithubTest { // Đổi tên class
 
     public static void main(String[] args) {
         System.out.println("Hello GitHub - Updated!");
-        greet("Người dùng khác");
+        greet("Người dùng khác"); 
+        
         
     }
 
     public static void greet(String name) {
-        System.out.println("Xin chào, " + name + "!");
+        System.out.println("Xin chào, " );
         
-    }
-}
+    } 
+    public void thongbao (){
+        System.out.println("chao ban");
+} }
